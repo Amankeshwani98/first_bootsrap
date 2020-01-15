@@ -1,0 +1,158 @@
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+  padding-bottom: 20px;
+}
+h1
+{
+  font-size: 4rem;
+  line-height: 1.5;
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 3%;
+
+
+}
+.otateimg180 {
+  -webkit-transform:rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+  width: 70%;
+}
+.navbar-brand
+{
+  font-size: 3rem;
+  color: white;
+}
+
+/* features sections */
+
+#features{
+
+  background-color: #f1f1f6;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right:100px;
+
+
+}
+.d-image{
+  color: #ef8172;
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+.d-image:hover{
+  color:  #ff4c68;
+}
+
+.pre{
+  font-family: 'Long Cang', cursive;
+  font-size: 1rem;
+}
+.dwnld
+{
+  margin-left: 4%;
+  margin-top: 5%;
+
+}
+.navbar-nav
+{
+  margin-left: 3%;
+  margin-right: 5%;
+  font-size: 1.2rem;
+  padding-right: 5%;
+}
+
+/* testinomials sections */
+
+#testimonials
+{
+
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+}
+#carousel-testimonials{
+    padding:7% 15%;
+}
+
+/* press section */
+
+#press{
+
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+/* pricing sction */
+
+#pricing{
+  text-align: center;
+  padding: 5%;
+  background-color: #f1f1f6;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* <!-- Call to Action  */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+.ch1{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 3rem;
+   line-height: 1.5;
+   color: white;
+}
+
+.ctabtn
+{
+  margin-right: 10px;
+ margin-top: 20px;
+
+}
+
+
+#footer{
+
+  text-align: center;
+  background-color: #f1f1f6;
+
+}
+.f-icon
+{
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+@media (max-width:1028px)
+{
+.otateimg180
+{
+  position: static;
+  transform: rotate(0);
+
+}
+#title{
+  text-align: center;
+}
+
+}
